@@ -1,0 +1,64 @@
+question,answer,product,category
+How do I get a refund for a cancelled order?,Refunds for cancelled orders go back to the original payment method within 5 to 7 working days. Zomato credits are refunded instantly.,Zomato App,Refunds
+How long does a refund take to reach my bank account?,UPI and wallet refunds usually arrive in 1 to 3 working days. Card and net banking refunds take 5 to 7 working days depending on your bank.,Zomato App,Refunds
+Can I get a refund as Zomato credits instead?,"Yes. At the time of the refund you can choose Zomato credits, which are added instantly and can be used on your next order.",Zomato App,Refunds
+I was refunded less than I paid. Why?,Delivery tips and certain taxes are handled separately. The refund breakup is shown on the order page under Refund details.,Zomato App,Refunds
+My food arrived late. Can I get compensation?,"If an order arrives more than 30 minutes after the promised time, open the order in the app and tap Help. Eligible orders receive credits or a partial refund.",Zomato App,Delivery
+Where is my order?,"Open Orders and tap the active order to see live tracking. If the rider is not moving for more than 10 minutes, tap Help to contact support.",Zomato App,Delivery
+The delivery partner cannot find my address. What should I do?,Call the delivery partner from the tracking screen and share a landmark. You can also edit the delivery instructions before the order is picked up.,Zomato App,Delivery
+Can I change my delivery address after placing an order?,"You can change it only before the restaurant accepts the order. After that, contact the delivery partner directly.",Zomato App,Delivery
+What if an item is missing from my order?,Report it within 2 hours of delivery from the order page with a photo of what you received. We refund the missing item.,Zomato App,Delivery
+What if I received the wrong order?,"Report it from the order page with a photo. We will refund the order or arrange a replacement, depending on availability.",Zomato App,Delivery
+How do I cancel an order?,"You can cancel for free within 60 seconds of placing the order. After that, a cancellation fee may apply if the restaurant has started preparing it.",Zomato App,Orders
+Can I order for a future time?,"Yes. Choose Schedule at checkout to pick a delivery time up to 7 days ahead, where the restaurant supports it.",Zomato App,Orders
+Can I order for someone else?,"Yes. Choose Order for someone else at checkout and enter their name, phone number and address.",Zomato App,Orders
+Is there a minimum order value?,Minimum order values are set by each restaurant and are shown on the restaurant page and at checkout.,Zomato App,Orders
+What is the delivery fee based on?,"The fee depends on distance, time of day and demand. The full breakup is shown at checkout before you pay.",Zomato App,Orders
+Does Zomato deliver groceries?,Zomato's grocery and ingredient delivery is available in select cities through Blinkit. Availability depends on your location.,Zomato App,Orders
+How do I apply a promo code?,"Enter the code on the cart screen under Offers. Only one code can be applied per order, and it must meet the offer's minimum value.",Zomato App,Offers
+Why was my promo code rejected?,"Codes can be rejected if they have expired, require a higher order value, apply to specific restaurants, or have already been used.",Zomato App,Offers
+What does Zomato Gold include?,"Zomato Gold gives free delivery on eligible orders above the minimum value, extra discounts at partner restaurants and priority customer support.",Zomato Gold,Membership
+How much does Zomato Gold cost?,"Gold is offered on monthly, quarterly and annual plans. Current prices are shown in the app under Profile, then Gold.",Zomato Gold,Membership
+How do I cancel my Zomato Gold membership?,"Open Profile, then Gold, then Manage membership, and choose Cancel. Benefits continue until the end of the paid period. Fees are not refunded for the unused period.",Zomato Gold,Membership
+Why was I charged a delivery fee on a Gold order?,Gold free delivery applies only above the minimum order value and within the eligible distance. Check the bill breakup on the order page.,Zomato Gold,Membership
+Can I share my Gold membership with family?,No. Gold is linked to one account and one phone number and cannot be shared.,Zomato Gold,Membership
+Will my Gold membership renew automatically?,"Yes, unless you turn off auto-renew in Manage membership. We send a reminder 3 days before renewal.",Zomato Gold,Membership
+Which plan includes single sign-on?,SSO is available on the Business and Enterprise plans of Zomato for Enterprise. The Starter plan uses email and password login.,Zomato for Enterprise,Security
+Which identity providers are supported for SSO?,"SAML 2.0 providers such as Okta, Azure AD and Google Workspace are supported on the Business and Enterprise plans.",Zomato for Enterprise,Security
+Does Zomato for Enterprise support SCIM user provisioning?,Automatic user sync using SCIM is available only on the Enterprise plan. Business plan admins can upload employees by CSV.,Zomato for Enterprise,Admin
+How does Zomato for Enterprise billing work?,"Companies receive one consolidated invoice each month for all employee orders, with a department-wise breakup. Payment terms are 30 days.",Zomato for Enterprise,Billing
+Can employees set a daily meal budget?,"Yes. Admins can set daily, weekly or monthly limits per employee or per team in the Admin dashboard.",Zomato for Enterprise,Billing
+Can we pay a part of the order from the employee's own money?,"Yes. When an order exceeds the company limit, the employee can pay the difference with a personal payment method.",Zomato for Enterprise,Billing
+How do I add or remove employees in bulk?,"Upload a CSV with name, email and department from Admin, then Employees, then Bulk upload. On the Enterprise plan you can sync users automatically through SCIM.",Zomato for Enterprise,Admin
+How do I download GST invoices for my company?,"Go to Admin, then Billing, then Invoices, and download the monthly GST invoice. The invoice is issued to the company GSTIN registered in your account.",Zomato for Enterprise,Billing
+What support does each Enterprise plan include?,Starter has email support. Business has chat support from 9am to 9pm. Enterprise has a dedicated account manager and 24x7 priority support.,Zomato for Enterprise,Support
+What is the minimum team size for each plan?,"Starter needs at least 10 employees, Business at least 50 and Enterprise at least 500.",Zomato for Enterprise,Billing
+Can we restrict ordering to certain restaurants or times?,"Yes. Admins can set allowed time windows, such as lunch hours, and can restrict ordering to approved restaurants or cuisines.",Zomato for Enterprise,Admin
+How do I get usage reports?,"Admin, then Reports shows spend by department, employee and restaurant. Business and Enterprise plans can schedule reports by email.",Zomato for Enterprise,Admin
+When do restaurant partners get paid?,"Payouts are settled weekly, every Tuesday, for orders delivered in the previous Monday to Sunday week. The payout statement is available in the partner dashboard.",Restaurant Partners,Payouts
+Why is my payout lower than expected?,"Payouts are net of the commission, taxes collected at source, ad charges and any refunds funded by the restaurant. Open the payout statement for a line-by-line breakup.",Restaurant Partners,Payouts
+What commission does Zomato charge?,Commission depends on your plan and city. Your rate is shown in the partner dashboard under Agreement details.,Restaurant Partners,Payouts
+How do I change my restaurant's opening hours?,"Open the partner app, go to Outlet settings, then Timings. Changes apply within 15 minutes. Use Temporarily closed for unplanned closures.",Restaurant Partners,Operations
+How do I update my menu prices?,Edit prices in the partner dashboard under Menu. Price changes are reviewed and go live within 24 hours.,Restaurant Partners,Operations
+How do I mark an item out of stock?,"In the partner app, open Menu and toggle the item off. It disappears from the app immediately and can be switched back on at any time.",Restaurant Partners,Operations
+How can I improve my restaurant rating?,"Keep preparation times accurate, pack food securely and respond to customer feedback. The dashboard shows the main reasons for low ratings.",Restaurant Partners,Operations
+How do I dispute an order cancellation charge?,"Raise a dispute from the partner dashboard under Orders within 7 days, with the order id and supporting evidence.",Restaurant Partners,Payouts
+How do I advertise my restaurant on Zomato?,"Open the Ads section in the partner dashboard to create a campaign, set a daily budget and choose the audience area.",Restaurant Partners,Marketing
+How do delivery partners get paid?,Delivery partners earn per order plus distance and peak-hour incentives. Earnings are transferred to the registered bank account every week.,Delivery Partners,Payouts
+When do incentives get credited?,"Peak-hour and weekly milestone incentives are credited with the weekly payout, usually within 2 working days after the week ends.",Delivery Partners,Payouts
+What should a delivery partner do after an accident?,Use the SOS button in the app first. The partner is covered by accident insurance; submit the claim from the Insurance section within 7 days.,Delivery Partners,Safety
+What documents are needed to join as a delivery partner?,"You need an ID proof, a valid driving licence, vehicle registration, a bank account and a recent photo. Verification takes 2 to 3 working days.",Delivery Partners,Onboarding
+How can a delivery partner change the working zone?,"Open Profile, then Zone, and request a change. It is reviewed within 48 hours and depends on demand in the new zone.",Delivery Partners,Operations
+What happens if a delivery partner rejects too many orders?,Frequent rejections can reduce access to peak-hour incentives. Partners are not penalised for rejecting orders for safety reasons.,Delivery Partners,Operations
+Why was my account suspended?,"Accounts can be suspended for repeated order cancellations, suspected fraud or policy violations. You will get an email with the reason and an appeal link.",Zomato App,Account
+How do I change my registered phone number?,"Open Profile, then Edit, then Phone number, and verify the new number with an OTP. If you no longer have the old number, contact support with an ID proof.",Zomato App,Account
+How do I delete my account?,"Open Profile, then Privacy, then Delete account. Deletion is permanent and completes within 30 days. Active orders and unused credits must be settled first.",Zomato App,Account
+How can I download my data?,"Open Profile, then Privacy, then Download my data. We email a link within 48 hours.",Zomato App,Account
+Is my payment information stored safely?,Card details are stored by our PCI-DSS compliant payment partner in tokenised form. Zomato never sees your full card number.,Zomato App,Payments
+My payment failed but money was deducted. What now?,"In most cases the amount is automatically reversed within 5 to 7 working days. If not, contact support with the transaction ID.",Zomato App,Payments
+Which payment methods are accepted?,"UPI, credit and debit cards, net banking, wallets, Zomato credits and, in some cities, cash on delivery.",Zomato App,Payments
+Why is cash on delivery not available for my order?,"Cash on delivery is unavailable for high-value orders, new accounts in some areas, or when the restaurant does not support it.",Zomato App,Payments
+How do I report a food safety issue?,Use Help on the order page and choose Food quality. Include photos. Serious cases are escalated to the Food Safety team within 24 hours.,Zomato App,Safety
+How do you handle allergy information?,Restaurants list allergens on the menu where they can. Always add allergy notes at checkout and confirm with the restaurant for severe allergies.,Zomato App,Safety
+How do I contact customer support?,"Use Help in the app for chat support, available 24x7. For enterprise accounts, write to the dedicated support address in your Admin dashboard.",Zomato App,Support
+How long does a support ticket take to resolve?,"Most chats are resolved immediately. Tickets that need investigation are resolved within 24 hours, and complex cases within 3 working days.",Zomato App,Support

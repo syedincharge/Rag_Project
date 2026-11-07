@@ -1,0 +1,100 @@
+{
+  "product": "Zomato for Enterprise",
+  "currency": "INR",
+  "billing": {
+    "cycle": "monthly",
+    "invoice": "one consolidated GST invoice",
+    "payment_terms_days": 30,
+    "annual_commitment_discount_percent": 10
+  },
+  "plans": [
+    {
+      "name": "Starter",
+      "price_per_employee_per_month": 99,
+      "min_employees": 10,
+      "sso": false,
+      "scim": false,
+      "support": "Email support, response within 2 business days",
+      "features": [
+        "Company meal wallet",
+        "Daily spending limits",
+        "Monthly consolidated invoice",
+        "Email support"
+      ]
+    },
+    {
+      "name": "Business",
+      "price_per_employee_per_month": 199,
+      "min_employees": 50,
+      "sso": true,
+      "scim": false,
+      "support": "Chat support, 9am to 9pm, response within 4 hours",
+      "features": [
+        "Everything in Starter",
+        "Single sign-on (SAML 2.0)",
+        "Department-wise reports",
+        "Allowed time windows and restaurant rules",
+        "Scheduled usage reports by email",
+        "Chat support, 9am to 9pm"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_per_employee_per_month": 349,
+      "min_employees": 500,
+      "sso": true,
+      "scim": true,
+      "support": "24x7 priority support with a dedicated account manager, response within 1 hour",
+      "features": [
+        "Everything in Business",
+        "Automatic user sync (SCIM)",
+        "Dedicated account manager",
+        "Custom invoicing and PO-based billing",
+        "Quarterly business reviews",
+        "24x7 priority support"
+      ]
+    }
+  ],
+  "add_ons": [
+    {
+      "name": "Office pantry delivery",
+      "price": "Starts at INR 4,999 per month per office",
+      "available_on": [
+        "Business",
+        "Enterprise"
+      ]
+    },
+    {
+      "name": "Event and team catering",
+      "price": "Per order, quoted by the account manager",
+      "available_on": [
+        "Business",
+        "Enterprise"
+      ]
+    },
+    {
+      "name": "Extra admin seats",
+      "price": "INR 500 per admin per month after 3 included admins",
+      "available_on": [
+        "Starter",
+        "Business",
+        "Enterprise"
+      ]
+    }
+  ],
+  "limits": {
+    "starter_admins": 3,
+    "business_admins": 10,
+    "enterprise_admins": "unlimited",
+    "report_retention_months": {
+      "Starter": 6,
+      "Business": 24,
+      "Enterprise": 60
+    }
+  },
+  "contract_terms": {
+    "minimum_term_months": 12,
+    "notice_to_cancel_days": 30,
+    "price_change_notice_days": 60
+  }
+}
