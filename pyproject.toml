@@ -1,7 +1,7 @@
 [project]
 name = "rag-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Build a RAG project with LangChain, Qdrant, and OpenRouter"
 authors = [
     { name = "syedincharge", email = "rizvisyeba@gmail.com" }
 ]
