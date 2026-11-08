@@ -1158,6 +1158,19 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-openrouter"
+version = "0.2.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "openrouter" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b6/ad/c908cc9161858fe0c720e8e0d32d64462c5a09bf64e463e1709d679919bc/langchain_openrouter-0.2.9.tar.gz", hash = "sha256:e3c130bfc58a517811044b6cb56e13b2e7d1ee219c38e025f4522aa0400f9c8e", size = 183837, upload-time = "2026-09-22T04:15:59.13Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/65/ad/7a0f0f39b92d0b93123d6e11e4bf35a560a07cbf59bfee7ab0c6052d251f/langchain_openrouter-0.2.9-py3-none-any.whl", hash = "sha256:375a79a4a849069d2254627185210b2f2b9fe84c69326e10d71c3d48f8b41f06", size = 30170, upload-time = "2026-09-22T04:15:57.853Z" },
+]
+
+[[package]]
 name = "langchain-protocol"
 version = "0.0.19"
 source = { registry = "https://pypi.org/simple" }
@@ -1914,7 +1927,7 @@ wheels = [
 
 [[package]]
 name = "openrouter"
-version = "1.3.43"
+version = "0.11.46"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpcore" },
@@ -1922,9 +1935,9 @@ dependencies = [
     { name = "jsonpath-python" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8b/b3/618e7eb85cb241e1c5f6337246ff033de9a2d4757d31c8ebe00a4f345551/openrouter-1.3.43.tar.gz", hash = "sha256:90768136a7149ce3e94acc09e5ccd29d68d8d5bdbb99ee5af2e9a7ca4dfcbef7", size = 598052, upload-time = "2026-10-11T01:45:28.219Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5e/61/6a238508a4e4310a7674c360b656a652a8e11973e451c6eca8da8bf45d8d/openrouter-0.11.46.tar.gz", hash = "sha256:5470af3e7bf25ad84cd410b43bbd4aba3052642d7a5033e5767b35c0ee5608db", size = 380405, upload-time = "2026-07-20T17:06:23.391Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8d/6f/ce0f446b4250b74c3a757451fc78be20f3988e69716f8456cebc57b20dbb/openrouter-1.3.43-py3-none-any.whl", hash = "sha256:1e54964492d6466c865b94079e9b67034f0fed51c7fd9aa219e104e142b425ce", size = 1299909, upload-time = "2026-10-11T01:45:26.212Z" },
+    { url = "https://files.pythonhosted.org/packages/08/e3/0504f94e182c8975750bc9eb280552cf9cec9a7ffe20edeb44a825fa605d/openrouter-0.11.46-py3-none-any.whl", hash = "sha256:9acbb9922bcae46239ef4364c8ec095284773494fac40c92c61a24e1a1d239b4", size = 837323, upload-time = "2026-07-20T17:06:22.039Z" },
 ]
 
 [[package]]
@@ -2591,9 +2604,9 @@ dependencies = [
     { name = "langchain-community" },
     { name = "langchain-core" },
     { name = "langchain-openai" },
+    { name = "langchain-openrouter" },
     { name = "langchain-qdrant" },
     { name = "langchain-text-splitters" },
-    { name = "openrouter" },
     { name = "pydantic" },
     { name = "pymupdf" },
     { name = "pypdf" },
@@ -2617,9 +2630,9 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.4.2" },
     { name = "langchain-core", specifier = ">=1.6.9" },
     { name = "langchain-openai", specifier = ">=1.7.0" },
+    { name = "langchain-openrouter", specifier = ">=0.2.9" },
     { name = "langchain-qdrant", specifier = ">=1.1.0" },
     { name = "langchain-text-splitters", specifier = ">=1.1.3" },
-    { name = "openrouter", specifier = ">=1.3.43" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "pymupdf", specifier = ">=1.28.2" },
     { name = "pypdf", specifier = ">=6.20.0" },
